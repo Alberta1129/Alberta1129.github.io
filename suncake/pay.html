@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品總覽</title>
+    <title>日出商品付款</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/pay.css">
@@ -12,16 +12,42 @@
 </head>
 
 <body>
+    <!-- nav -->
+    <nav class="contanior-all">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/日日出股份有限公司-01-01-02.png" alt=""></a>
+        </div>
+        <ul class="right-menu">
+            <li><span>關於日出</span></li>
+            <li><span>最新消息</span></li>
+            <li><span>主打商品</span></li>
+            <li><span>商品總覽</span></li>
+            <li><span>常見問題</span></li>
+        </ul>
+        <ul class="left-menu">
+            <li class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="hide-text">搜尋</span>
+            </li>
+            <li class="shopbox">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+            <li class="login">
+                <i class="fa-regular fa-circle-user"></i>
+                <span class="hide-text">登入</span>
+            </li>
+        </ul>
+    </nav>
     <!-- ------------------------- -->
-        <div class="big-box">
-            <div class="main">
-                <div class="progress-bar">
-                    <button class="active">訂單內容確認</button>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <button class="progressbtn">付款方式及資料填寫</button>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <button class="submitbtn">完成購買</button>
-                </div>
+    <div class="big-box">
+        <div class="main">
+            <div class="progress-bar">
+                <button class="active">訂單內容確認</button>
+                <i class="fa-solid fa-chevron-right"></i>
+                <button class="progressbtn">付款方式及資料填寫</button>
+                <i class="fa-solid fa-chevron-right"></i>
+                <button class="submitbtn">完成購買</button>
+            </div>
             <section class="form-section">
                 <h2>取貨方式</h2>
                 <input type="radio" name="pickup" value="宅配">宅配
@@ -229,10 +255,10 @@
                         </div>
             </section>
             <div class="container"></div>
-        <div class="actions">
-            <a href="./Order.html" class="back-btn">回到上一步</button></a>
-            <a href="./lastpage-new.html" class="next-btn">確認送出</button></a>
-        </div>
+            <div class="actions">
+                <a href="./Order.html" class="back-btn">回到上一步</button></a>
+                <a href="./lastpage-new.html" class="next-btn">確認送出</button></a>
+            </div>
         </div>
     </div>
     <!-- ------------------------- -->
